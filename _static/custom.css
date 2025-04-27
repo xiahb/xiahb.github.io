@@ -1,0 +1,29 @@
+/* 使主内容区域占满全屏 */
+
+.wy-nav-content {
+    padding: 1.618em 3.236em;
+    height: 100%;
+    max-width: 1100px;
+    /*margin: auto;*/
+}
+
+.noheader thead {
+    display: none;
+}
+
+.wy-table-responsive {
+    margin-bottom: 24px;
+    max-width: 100%;
+    overflow: auto !important;
+}
+
+.icon-home:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../_static/logo3_32x32.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
